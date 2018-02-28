@@ -11,8 +11,8 @@ public class CMain {
 		c1.setLoanLength(input.nextDouble());
 		System.out.print("Enter Interest Rate: ");
 		c1.setInterestRate(input.nextDouble());
+		input.close();
 		System.out.println("Monthly Car Payment: " + c1.MonthlyCarPayment());
 		System.out.println("Total Spent On Interestt: " + c1.TotalSpentOnInterest());
-		input.close();
 	}
 }
